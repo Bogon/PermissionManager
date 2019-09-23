@@ -32,11 +32,11 @@ extension PermissionsManager {
     public static func jumpSetting() {
         
         if #available(iOS 10.0, *) {
-            UIApplication.shared.open(URL.init(string: UIApplicationOpenSettingsURLString)!,
+            UIApplication.shared.open(URL.init(string: UIApplication.openSettingsURLString)!,
                                       options: [:],
                                       completionHandler: nil)
         } else {
-            UIApplication.shared.openURL(URL.init(string: UIApplicationOpenSettingsURLString)!)
+            UIApplication.shared.openURL(URL.init(string: UIApplication.openSettingsURLString)!)
         }
     }
 }

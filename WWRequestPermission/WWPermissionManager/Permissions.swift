@@ -145,8 +145,8 @@ class WWNotificationPermission: PermissionProtocol {
 
 class WWMicrophonePermission: PermissionProtocol {
     
-    var status: AVAudioSessionRecordPermission {
-        return AVAudioSession.sharedInstance().recordPermission()
+    var status: AVAudioSession.RecordPermission {
+        return AVAudioSession.sharedInstance().recordPermission
     }
     
     // denied undetermined granted
