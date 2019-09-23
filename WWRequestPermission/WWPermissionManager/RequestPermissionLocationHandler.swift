@@ -133,6 +133,9 @@ class PermissionWhenInUseLocationHandler
             
         case .authorizedWhenInUse:
             complectionHandler(isAuthorized())
+        @unknown default:
+            locationManager.delegate = self
+            locationManager.requestWhenInUseAuthorization()
         }
     }
     
