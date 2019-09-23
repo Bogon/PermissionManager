@@ -1,5 +1,8 @@
 # PermissionManager
 
+## 声明
+** 已适配iOS13 **
+
 ## 0. demo效果图
 
 ![demo](https://github.com/WangWei1993/PermissionManager/blob/master/permission.gif)
