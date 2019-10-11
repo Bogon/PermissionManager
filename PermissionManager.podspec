@@ -2,7 +2,7 @@
 
 Pod::Spec.new do |s|
 s.name = 'PermissionManager'
-s.version = '0.8.0'
+s.version = '1.0.0'
 s.license = 'MIT'
 s.summary = 'PermissionManager can action permissions'
 s.homepage = 'https://github.com/Bogon'

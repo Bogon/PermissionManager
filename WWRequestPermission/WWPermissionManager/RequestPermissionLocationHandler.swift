@@ -110,7 +110,7 @@ class PermissionWhenInUseLocationHandler
     
     lazy var locationManager: CLLocationManager = {
         let locationManager = CLLocationManager()
-        locationManager.delegate = self
+        //locationManager.delegate = self
         return locationManager
     }()
     
